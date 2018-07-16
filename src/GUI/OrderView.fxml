@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.OrderController">
+    <children>
+        <ImageView fitHeight="502.0" fitWidth="650.0" layoutY="-9.0">
+            <image>
+                <Image url="@picture/background.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="162.0" fitWidth="217.0" layoutX="168.0" layoutY="263.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="200.0" layoutX="220.0" layoutY="84.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+        <Text fx:id="Title" fill="#ffa10a" layoutX="195.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chef Recommendation" textAlignment="RIGHT" textOrigin="CENTER" underline="true">
+            <font>
+                <Font name="YuKyokasho Bold" size="36.0" />
+            </font>
+        </Text>
+      <ImageView fitHeight="127.0" fitWidth="302.0" layoutX="338.0" layoutY="2.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+        <ImageView fx:id="upperImage" depthTest="ENABLE" fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="89.0">
+            <image>
+                <Image url="@picture/Pork_Roast.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="lowerImage" fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="276.0">
+            <image>
+                <Image url="@picture/temari_sushi.jpg" />
+            </image>
+        </ImageView>
+        <Text layoutX="74.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font name="YuKyokasho Bold" size="13.0" />
+            </font>
+        </Text>
+        <Text layoutX="75.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font name="YuKyokasho Bold" size="13.0" />
+            </font>
+        </Text>
+        <Label fx:id="Pork_Roast_add" layoutX="404.0" layoutY="81.0" />
+        <Label fx:id="Temari_Sushi_add" layoutX="404.0" layoutY="268.0" text=" " />
+        <Button fx:id="Add" layoutX="560.0" layoutY="100.0" mnemonicParsing="false" onMousePressed="#BoxSelect" prefHeight="27.0" prefWidth="72.0" text="Add" textFill="#f42004" />
+        <Button fx:id="Sub" layoutX="560.0" layoutY="170.0" mnemonicParsing="false" onMousePressed="#BoxSelect" prefHeight="27.0" prefWidth="72.0" text="Subtract" textFill="#f42004" />
+        <CheckBox fx:id="upperSelection" layoutX="64.0" layoutY="248.0" mnemonicParsing="false" onAction="#displayIngredients" text="Pork Roast" />
+        <CheckBox fx:id="lowerSelection" layoutX="64.0" layoutY="435.0" mnemonicParsing="false" onAction="#displayIngredients" text="Temari Sushi" />
+        <Label fx:id="Pork_Roast_subract" layoutX="510.0" layoutY="81.0" />
+        <Label fx:id="Temari_Sushi_subract" layoutX="510.0" layoutY="268.0" text=" " />
+        <Button fx:id="Submit" layoutX="560.0" layoutY="310.0" mnemonicParsing="false" onMousePressed="#PressSubmit" prefHeight="27.0" prefWidth="72.0" text="Submit" textFill="#f42004" />
+        <Button fx:id="Back" layoutX="28.0" layoutY="25.0" mnemonicParsing="false" onMousePressed="#addPicture" text="back" textFill="#f42004" />
+        <Button layoutX="74.0" layoutY="25.0" mnemonicParsing="false" onAction="#toMenu" text="main" textFill="#f42004" />
+        <Button fx:id="Next" layoutX="121.0" layoutY="25.0" mnemonicParsing="false" onMousePressed="#addPicture" text="next" textFill="#f42004" />
+      <ListView fx:id="upperList" layoutX="342.0" layoutY="89.0" prefHeight="150.0" prefWidth="200.0" />
+      <ListView fx:id="lowerList" layoutX="342.0" layoutY="276.0" prefHeight="150.0" prefWidth="200.0" />
+      <Button fx:id="Clear" layoutX="559.0" layoutY="240.0" mnemonicParsing="false" onMousePressed="#BoxSelect" prefHeight="27.0" prefWidth="72.0" text="Clear" textFill="#f40002" />
+      <Button fx:id="Cart" layoutX="560.0" layoutY="380.0" mnemonicParsing="false" onAction="#toCart" prefHeight="27.0" prefWidth="72.0" text="Cart" textFill="#f40002" />
+      <Text fx:id="upperPrice" layoutX="342.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="lowerPrice" layoutX="342.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="Notation" fill="#f40002" layoutX="342.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="266.6689453125">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="cat" fitHeight="109.0" fitWidth="156.0" layoutX="184.0" layoutY="379.0" visible="false">
+         <image>
+            <Image url="@picture/cats.gif" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

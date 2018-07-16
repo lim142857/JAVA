@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MenuController">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="647.0" layoutX="-3.0">
+         <image>
+            <Image url="@picture/background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#ffa10a" layoutX="257.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font name="YuKyokasho Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="25.0" layoutY="87.0">
+         <image>
+            <Image url="@picture/chef.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Chef_R" contentDisplay="CENTER" layoutX="26.0" layoutY="227.0" mnemonicParsing="false" onAction="#toChefRecommendation" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="168.0" text="Chef Recommendation" />
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="235.0" layoutY="87.0">
+         <image>
+            <Image url="@picture/salad.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Salad" layoutX="235.0" layoutY="227.0" mnemonicParsing="false" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="170.0" text="Salad" />
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="436.0" layoutY="87.0">
+         <image>
+            <Image url="@picture/rice.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Rice" layoutX="437.0" layoutY="227.0" mnemonicParsing="false" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="168.0" text="Rice" />
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="25.0" layoutY="267.0">
+         <image>
+            <Image url="@picture/noodles.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Noddles" layoutX="25.0" layoutY="402.0" mnemonicParsing="false" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="170.0" text="Noodles" />
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="235.0" layoutY="267.0">
+         <image>
+            <Image url="@picture/sushi.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Sushi" layoutX="235.0" layoutY="402.0" mnemonicParsing="false" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="170.0" text="Sushi" />
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="444.0" layoutY="267.0">
+         <image>
+            <Image url="@picture/snacks.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Snacks" layoutX="445.0" layoutY="402.0" mnemonicParsing="false" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="168.0" text="Snacks and Sides" />
+      <Button layoutX="26.0" layoutY="441.0" mnemonicParsing="false" onAction="#toMenu" prefHeight="25.0" prefWidth="55.0" text="page 1" textFill="#fb2020">
+         <font>
+            <Font name="YuMincho Medium" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="83.0" layoutY="441.0" mnemonicParsing="false" onAction="#toNextMenu" prefHeight="25.0" prefWidth="55.0" text="page 2 " textFill="#ee2f2f">
+         <font>
+            <Font name="YuGothic Medium" size="10.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="120.0" fitWidth="318.0" layoutX="323.0" layoutY="-33.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

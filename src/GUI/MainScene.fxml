@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="613.0" layoutX="-20.0">
+         <image>
+            <Image url="@picture/white.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="158.0" fitWidth="256.0" layoutX="-3.0" layoutY="242.0">
+         <image>
+            <Image url="@picture/walk.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@picture/flower.gif" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="153.0" layoutY="49.0" prefHeight="92.0" prefWidth="295.0" text="Welcome!">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="219.0" layoutY="193.0" />
+      <Button layoutX="273.0" layoutY="236.0" mnemonicParsing="false" onAction="#logIn" text="Log in" />
+      <Label fx:id="logInStatus" layoutX="232.0" layoutY="161.0" prefHeight="26.0" prefWidth="200.0" text="Please enter your name" />
+   </children>
+</AnchorPane>

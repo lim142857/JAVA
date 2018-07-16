@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CartController">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="647.0">
+         <image>
+            <Image url="@picture/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="144.0" fitWidth="244.0" layoutY="372.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="276.0" layoutX="310.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+      <Text fill="#ffa10a" layoutX="243.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cart">
+         <font>
+            <Font name="YuKyokasho Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="142.0" layoutX="474.0" layoutY="266.0">
+         <image>
+            <Image url="@picture/cat.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="cartView" layoutX="44.0" layoutY="82.0" onEditCommit="#showCart" onEditStart="#showCart" prefHeight="317.0" prefWidth="399.0" />
+      <Button layoutX="486.0" layoutY="82.0" mnemonicParsing="false" onAction="#removeOrder" prefHeight="27.0" prefWidth="72.0" text="Remove" textFill="#f40002" />
+      <Button layoutX="486.0" layoutY="148.0" mnemonicParsing="false" onAction="#createOrder" prefHeight="27.0" prefWidth="72.0" text="Submit" textFill="#f40002" />
+      <Button layoutX="486.0" layoutY="214.0" mnemonicParsing="false" onAction="#toMenu" prefWidth="72.0" text="Menu" textFill="#f40002" />
+      <ImageView fx:id="thankYou" fitHeight="287.0" fitWidth="330.0" layoutX="79.0" layoutY="97.0" visible="false">
+         <image>
+            <Image url="@picture/Thank_cat.gif" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

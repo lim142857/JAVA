@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RejectController">
+   <children>
+      <TextField fx:id="otherReason" layoutX="30.0" layoutY="88.0" prefHeight="27.0" prefWidth="235.0" promptText="Others" />
+      <ChoiceBox fx:id="reasons" layoutX="30.0" layoutY="35.0" prefHeight="27.0" prefWidth="235.0" />
+      <Button layoutX="165.0" layoutY="134.0" mnemonicParsing="false" onAction="#rejectOrder" prefHeight="27.0" prefWidth="100.0" text="Reject" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MenuController">
+   <children>
+      <ImageView fitHeight="486.0" fitWidth="648.0" layoutX="-3.0" layoutY="-3.0">
+         <image>
+            <Image url="@picture/background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#ffa10a" layoutX="257.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font name="YuKyokasho Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="25.0" layoutY="87.0">
+         <image>
+            <Image url="@picture/dessert.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Dessert" layoutX="26.0" layoutY="227.0" mnemonicParsing="false" onAction="#toChefRecommendation" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="168.0" text="Dessert" />
+      <ImageView fitHeight="120.0" fitWidth="170.0" layoutX="235.0" layoutY="87.0">
+         <image>
+            <Image url="@picture/soup.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Soup" layoutX="235.0" layoutY="227.0" mnemonicParsing="false" onAction="#toChefRecommendation" onMousePressed="#toChefRecommendation" prefHeight="27.0" prefWidth="170.0" text="Soup" />
+      <Button layoutX="26.0" layoutY="432.0" mnemonicParsing="false" onAction="#toMenu" prefHeight="25.0" prefWidth="55.0" text="page 1" textFill="#f50808">
+         <font>
+            <Font name="YuMincho Medium" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="83.0" layoutY="432.0" mnemonicParsing="false" onAction="#toNextMenu" prefHeight="25.0" prefWidth="55.0" text="page 2" textFill="#f50808">
+         <font>
+            <Font name="YuGothic Medium" size="10.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="346.0" fitWidth="217.0" layoutX="405.0" layoutY="60.0">
+         <image>
+            <Image url="@picture/cat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="267.0" layoutX="373.0" layoutY="380.0">
+         <image>
+            <Image url="@picture/welcome.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="307.0" layoutX="336.0" layoutY="-21.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="289.0" layoutX="25.0" layoutY="296.0">
+         <image>
+            <Image url="@picture/right.gif" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

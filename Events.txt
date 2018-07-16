@@ -1,0 +1,40 @@
+order | Ashe | Sushi | 1 | rice,1 / avocado,1 | N/A
+order | Ashe | Mariated Ofu Soboro Mince | 1 | N/A | N/A
+order | Oriana | Mabo Tofu | 2 | N/A | N/A
+order | Oriana | Milk Tea Pudding | 1 | N/A | tea bag,1
+order | Oriana | Pork Roast | 1 | N/A | N/A
+order | Ashe | Mariated Ofu Soboro Mince | 1 | N/A | N/A
+order | Ashe | Sushi | 1 | rice,1 / avocado,1 | N/A
+seeOrder | Olaf | Sushi | 1
+seeOrder | Olaf | Mariated Ofu Soboro Mince | 1
+seeOrder | Olaf | Mabo Tofu | 2
+seeOrder | Darius | Milk Tea Pudding | 1
+seeOrder | Darius | Pork Roast | 1
+seeOrder | Olaf | Mariated Ofu Soboro Mince | 1
+seeOrder | Olaf | Sushi | 1
+fillOrder | Olaf | Sushi | 1
+fillOrder | Olaf | Mabo Tofu | 2
+fillOrder | Olaf | Mariated Ofu Soboro Mince | 1
+fillOrder | Darius | Milk Tea Pudding | 1
+fillOrder | Darius | Pork Roast | 1
+fillOrder | Olaf | Mariated Ofu Soboro Mince | 1
+fillOrder | Olaf | Sushi | 1
+order | Ashe | Mariated Ofu Soboro Mince | 2 | N/A | N/A
+seeOrder | Olaf | Mariated Ofu Soboro Mince | 2
+reject | Ashe | Sushi | 1 | N/A | N/A | This dish is too cold
+reject | Oriana | Mariated Ofu Soboro Mince | 1 | N/A | N/A | The order is wrong
+reject | Oriana | Pork Roast | 1 | N/A | N/A | This dish does not taste good
+deliver | Oriana | Mariated Ofu Soboro Mince | 1
+deliver | Oriana | Mabo Tofu | 2
+deliver | Oriana | Milk Tea Pudding | 1
+deliver | Oriana | Sushi | 1
+deliver | Oriana | Sushi | 1
+fillOrder | Olaf | Mariated Ofu Soboro Mince | 2
+deliver | Oriana | Mariated Ofu Soboro Mince | 2
+getBill | Oriana | N/A | 2
+getBill | Ashe | N/A | 1
+setRequest | Zed | avocado | 50
+setRequest | Zed | tea bag | 20
+receive | Zed | avocado | 50
+receive | Zed | tea bag | 20
+checkInventory | Zed | N/A | 0

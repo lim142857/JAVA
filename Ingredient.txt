@@ -1,0 +1,49 @@
+onion | 250
+watercress | 250
+lemon | 250
+red chilli | 250
+avocado | 250
+rice | 250
+wasabi | 250
+pork roast | 250
+cheese | 250
+miso | 250
+tuna | 250
+salmon | 250
+cucumber | 250
+ham | 250
+shio koji | 250
+spinach | 250
+clove garlic | 250
+tofu | 250
+mushroom | 250
+carrot | 250
+cream | 250
+spaghetti | 250
+dashi powder | 250
+natto | 250
+curry roux | 250
+hapen fish cakes | 250
+egg | 250
+ginger | 250
+seaweed | 250
+turkey | 250
+sesame seed | 250
+rice cake | 250
+flour | 250
+noodle | 250
+pork | 250
+cabbage | 250
+pepper | 250
+fish cake | 250
+tea bag | 250
+red bean | 250
+beef | 250
+aubergine | 250
+mozzarella | 250
+soy milk | 250
+bread | 250
+tomato | 250
+mussel | 250
+scallop | 250
+prawn | 250

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ManagerController">
+  <tabs>
+    <Tab text="Inventory &amp; Request">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="Ingredients" layoutX="36.0" layoutY="27.0" prefHeight="295.0" prefWidth="226.0" />
+                  <ListView fx:id="Request" layoutX="334.0" layoutY="27.0" prefHeight="217.0" prefWidth="226.0" />
+                  <TextField fx:id="setQuantity" layoutX="334.0" layoutY="276.0" prefHeight="27.0" prefWidth="128.0" />
+                  <Button fx:id="setRequest" layoutX="485.0" layoutY="276.0" mnemonicParsing="false" onAction="#setRequest" text="Set Request" />
+                   <Button layoutX="488.0" layoutY="330.0" mnemonicParsing="false" onAction="#logOff" prefHeight="27.0" prefWidth="103.0" text="Log Off" />
+                  <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="176.0" layoutY="246.0">
+                     <image>
+                        <Image url="@picture/cat_walk.gif" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Records">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="Records" layoutX="63.0" layoutY="84.0" prefHeight="219.0" prefWidth="465.0" />
+                  <TextField fx:id="dates" layoutX="155.0" layoutY="32.0" promptText="Date" />
+                  <Button layoutX="361.0" layoutY="32.0" mnemonicParsing="false" onAction="#check" prefHeight="27.0" prefWidth="98.0" text="Check" />
+                  <Label layoutX="121.0" layoutY="320.0" prefHeight="29.0" prefWidth="248.0" text="The total income on this day is: $" />
+                  <Label fx:id="totalIncome" layoutX="349.0" layoutY="326.0" />
+                  <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="386.0" layoutY="246.0">
+                     <image>
+                        <Image url="@picture/cat_walk.gif" />
+                     </image>
+                  </ImageView>
+                  <!--<Button layoutX="243.0" layoutY="310.0" mnemonicParsing="false" onAction="#search" prefHeight="27.0" prefWidth="103.0" text="Search" />-->
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Employee">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="EmployeeNames" layoutX="61.0" layoutY="35.0" prefHeight="259.0" prefWidth="178.0" />
+                  <Button fx:id="fire" layoutX="99.0" layoutY="312.0" mnemonicParsing="false" onAction="#fire" prefHeight="27.0" prefWidth="103.0" text="Fire" />
+                  <TextField fx:id="newEmployeeName" layoutX="344.0" layoutY="138.0" promptText="New Employee Name" />
+                  <ChoiceBox fx:id="newEmployeePosition" layoutX="353.0" layoutY="63.0" prefWidth="150.0" />
+                  <Button layoutX="363.0" layoutY="216.0" mnemonicParsing="false" onAction="#hire" prefHeight="27.0" prefWidth="129.0" text="Hire" />
+                  <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="363.0" layoutY="243.0">
+                     <image>
+                        <Image url="@picture/cat_walk.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Receive">
+          <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                      <ListView fx:id="requestList" layoutX="23.0" layoutY="14.0" prefHeight="333.0" prefWidth="392.0" />
+                      <TextField fx:id="ingredientQuantity" layoutX="423.0" layoutY="99.0" promptText="Quantity" />
+                      <Button layoutX="423.0" layoutY="143.0" mnemonicParsing="false" onAction="#receiveIngredient" text="Receive" />
+                  <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="386.0" layoutY="245.0">
+                     <image>
+                        <Image url="@picture/cat_walk.gif" />
+                     </image>
+                  </ImageView>
+                  </children></AnchorPane>
+          </content>
+      </Tab>
+  </tabs>
+</TabPane>

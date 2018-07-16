@@ -1,0 +1,26 @@
+Watercress Salad | 10.99 | onion, 1 | watercress, 1 | lemon, 1 | red chilli, 1
+Avocado Sushi | 12.99 | avocado, 1 | rice, 1 | wasabi, 1
+Pork Roast | 18.99 | pork roast, 2 | cheese, 8 | miso, 9
+Temari Sushi | 15.99 | rice, 4 | tuna, 1 | salmon, 1 | cucumber, 1 | avocado, 1 | ham, 3
+Shio Koji Vegetable Saute | 11.99 | shio koji, 2 | spinach, 3 | clove garlic, 1
+Marinated Tofu Soboro Mince | 19.99 | tofu, 2 | mushroom, 4 | carrot, 1 | rice, 1
+Mushroom and Cream Pasta with Dashi | 17.99 | mushroom, 2 | clove garlic, 1 | cream, 1 | spaghetti, 4 | dashi powder, 1
+Natto Curry | 13.99 | natto, 3 | miso, 1 | curry roux, 6 | rice, 4
+Cheesy Hanpen Fish Cakes | 6.99 | hapen fish cakes, 2 | cheese, 2 | egg, 1
+Tempting Tofu | 7.99 | tofu, 2 | mushroom, 2 | carrot, 1 | ginger, 1
+Turkey Sushi | 13.99 | rice, 3 | seaweed, 1 | turkey, 1 | wasabi, 1
+Inari Sushi | 15.99 | tofu, 4 | sesame seed, 1 | rice, 2 | mushroom, 3 | carrot, 2
+Tamagoyaki Japanese Omelette | 9.99 | egg, 5
+Sanshoku Mochi | 5.99 | rice cake, 6 | seaweed, 2 | flour, 3
+Yakisoba Fried Noodle | 14.99 | noodle, 1 | pork, 5 | onion, 1 | cabbage, 1 | pepper, 1 | carrot, 1 | seaweed, 1 | ginger, 1
+Mabo Tofu | 13.99 | tofu, 1 | onion, 1 | pork, 2
+Soba Noodle Soup | 7.99 | noodle, 2 | seaweed, 5 | onion, 1 | fish cake, 2
+Ochazuke Green Tea And Rice | 5.99 | rice, 1 | tea bag, 1
+Oshiruko Sweet Red Bean Soup | 8.99 | rice cake, 4 | red bean, 2
+Gyudon Beef Bowl | 12.99 | beef, 2 | onion, 1 | rice, 3 | ginger, 1
+Yaki Nasu Grilled Aubergine | 7.99 | aubergine, 4 | ginger, 1 | onion, 1
+Cheesy Tempura Soy Parcels | 5.99 | mozzarella, 3 | flour, 1
+Vinegared Cucumber Salad | 7.99 | cucumber, 1 | seaweed, 10 | sesame seed, 1
+Milk Tea Pudding | 6.99 | soy milk, 4 | flour, 2 | tea bag, 1
+Dashi Bruschetta | 10.99 | dashi powder, 1 | bread, 4 | tomato, 2 | onion, 1 | clove garlic, 1
+Seafood Soup | 17.99 | dashi powder, 1 | mussel, 8 | clove garlic, 1 | tomato, 3 | scallop, 4 | prawn, 4
